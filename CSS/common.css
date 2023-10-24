@@ -1,0 +1,48 @@
+* {
+	margin: 0%;
+	padding: 0%;
+
+
+}
+
+body {
+	font-family: HelveticaNeueLTPro-Roman;
+}
+
+.custom-nav {
+    bottom: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.fs-12 {
+	font-size: 12px;
+}
+
+.fs-13 {
+	font-size: 13px;
+}
+
+
+.gap-18 {
+
+	gap: 18px;
+}
+.btn-arrow {
+	background-color: black;
+	color: white;
+	border: 0px;
+	padding: 1px 0px 0px 2px;
+	margin-top: 3px;
+}
+
+.footer-txt {
+
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.f-icons {
+	width: 35px;
+	height: 34px;
+}
