@@ -1,27 +1,41 @@
-.img1{
-    width: 100%;
-    height: 87%;
-}
-
-.img1-width{
-
+.h-664{
    
-        width: 64%;
-        height: 87%;
-    
+    height: 664px;
 }
-.img2-width{
 
+.w-33{
+
+    width:33%;
+}
+.w-34{
+
+    width:34%;
+}
+
+body{
+
+
+    position: absolute;
+}
+.h-450{
    
-    width: 36%;
- 
+    height: 450px;
+    position: relative;
+}
 
-}
-.img2{
-    width: 100%;
-    height:40%;
-}
-.img3{
-    width: 100%;
-    height: 34%;
-}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 103px;
+  }
+  .centered {
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 0px;
+    right: 158px;
+  }

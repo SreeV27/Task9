@@ -46,3 +46,19 @@ body {
 	width: 35px;
 	height: 34px;
 }
+
+.heading{
+
+	font-weight: revert;
+    letter-spacing: -.05em;
+    font-family: HelveticaNeueLTPro-Hv;
+    font-size: 54px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    line-height: .85em;
+}
+
+.bg-login {
+	background-color: #00a6ce;
+}
