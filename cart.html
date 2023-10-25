@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="CSS/bootstrap.css">
+      <link rel="stylesheet" href="CSS/css2.css">
+      <link rel="stylesheet" href="CSS/cart.css">
+      <link rel="stylesheet" href="CSS/common.css">
+      <title>Cart</title>
+   </head>
+   <body>
+      <nav class="bg-black position-sticky custom-nav">
+         <div class="pt-3 ps-5 pb-3 d-flex justify-content-between">
+            <div class="d-flex justify-content-evenly">
+               <img src="https://www.skullcandy.in/wp-content/themes/skullcandy/images/skullcandy_logo.svg" style="width: 35%;" alt="logo">
+               <div class="text-white" >
+                  <ul class=" fs-12 navbar-nav list-group-horizontal ">
+                     <li class="nav-item ">
+                        <a class="nav-link " href="#">SHOP</a>
+                     </li>
+                     <li class="nav-item ms-4">
+                        <a class="nav-link   " href="#">INSIDE SKULLCANDY</a>
+                     </li>
+                  </ul>
+               </div>
+            </div >
+            <div  class="text-white me-5">
+               <ul class=" fs-13 navbar-nav list-group-horizontal gap-18">
+                  <li class="nav-item text-white-50">
+                     <a class="nav-link " href="#">Support</a>
+                  </li>
+                  <li>
+                     <img class="rounded-circle"  src="Assests/indian_logo.png" alt="logo" style="width: 50px; height: 35px;">
+                  </li>
+                  <li class="pt-1">
+                     <span class="material-symbols-outlined">
+                     person
+                     </span>
+                  </li>
+                  <li class="pt-1">
+                     <span class="material-symbols-outlined">
+                     search
+                     </span>
+                  </li>
+                  <li class="pt-1">
+                     <span class="material-symbols-outlined">
+                     shopping_bag
+                     </span>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="text-center p-3 ">
+         <a  class="text-decoration-none" href="#">Use Coupon Code <b>MRP65</b> Get Flat <b style="font-size:22px; color:#f47c35;">65% OFF</b> on MRP <b>SHOP NOW &gt;</b></a>
+      </div>
+      <marquee  class=" fs-5 bg-black text-white" width="100%" direction="left" height="10%">
+         Get Additional 5% off upto ₹500 on all prepaid orders
+      </marquee>
+      <div class="text-center p-5 fs-1 fw-bold ">
+         <h2 class="heading">
+            CART
+         </h2>
+      </div>
+      <div class="px-5 ms-6">
+         <!--cart-->
+         <table style="width:100% ">
+            <tr class="table-heading">
+               <th class="w-80"></th>
+               <th class=" "></th>
+               <th class="w-300">Product</th>
+               <th class="">Price</th>
+               <th class="">Quantity</th>
+               <th class="">Subtotal</th>
+            </tr>
+            <tr>
+               <td class="py-4 text-center">
+                  <img src="Assests/close.PNG" alt="remove">
+               </td>
+               <td class="w-15">
+                  <img  height="131" width="150" src="Assests/cartimg.jpg" alt="Product">
+               </td>
+               <td class="pdt-name">
+                  <span class="fw-800">Push® Active True Wireless Earbuds - Ooze</span>
+               </td>
+               <td class="text-end">
+                  <span class="col-price">₹24,999.00</span>
+               </td>
+               <td class="text-center">
+                  <span class="border quantity">1</span>
+               </td>
+               <td class="">
+                  <span class="col-price">₹24,999.00</span>
+               </td>
+            </tr>
+         </table>
+      </div>
+      <div class="mt-2 fs-12 ms-3 gap-38 ps-5 justify-content-around   font-family d-flex">
+         <div class="d-flex">
+            <input type="text" name="coupon_code" class="coupon" id="coupon_code" value="" placeholder="Coupon code">
+            <button type="submit" class="bg-login p-3 ms-4 text-white border-0" name="coupon" value="coupon">APPLY COUPON</button>
+         </div>
+         <div>
+            <button type="submit" class=" opacity-50 bg-login p-3 ms-4 text-white border-0" name="checkout" value="checkout">UPDATE CART</button>
+         </div>
+      </div>
+      <div class="me-5 pe-5">
+         <div class="me-0 mt-5  w-30   float-end">
+            <h2>
+               <span>Cart totals</span>
+            </h2>
+            <div class="d-flex  justify-content-between pb-3 pt-2">
+               <span class="subtotal-text">Subtotal</span>
+               <span class="mount-text">₹24,999.00</span>
+            </div>
+            <div class="d-flex  justify-content-between pb-3 pt-2 border border-start-0 border-end-0">
+               <span class="subtotal-text">Online Payment Discount</span>
+               <span class="mount-text">-₹500.00</span>
+            </div>
+            <div class="d-flex  justify-content-between pb-3 pt-2">
+               <span class="subtotal-text">Total</span>
+               <span class="mount-text">₹24,499.00</span>
+            </div>
+            <button type="submit" class=" bg-login  fs-12 p-btn  text-white border-0" name="procced_checkout" value="procced checkout">PROCEED TO CHECKOUT</button>
+         </div>
+      </div>
+      <div>
+        hi
+      </div>
+   </body>
+</html>
