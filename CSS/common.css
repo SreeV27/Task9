@@ -5,9 +5,6 @@
 
 }
 
-body {
-	font-family: HelveticaNeueLTPro-Roman;
-}
 
 .custom-nav {
     bottom: 0;
@@ -22,7 +19,9 @@ body {
 .fs-13 {
 	font-size: 13px;
 }
-
+.fs-14{
+	font-size: 14px;
+}
 
 .gap-18 {
 
@@ -61,4 +60,20 @@ body {
 
 .bg-login {
 	background-color: #00a6ce;
+}
+
+.red {
+	color: red;
+}
+
+.needhelp{
+	color: white;
+	background-color: black;
+	position: fixed;
+	color: white;
+    background: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    bottom: 18px;
 }
