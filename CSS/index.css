@@ -39,3 +39,11 @@ body{
     bottom: 0px;
     right: 158px;
   }
+  .loginBtn{
+    background: black;
+    border: none;
+    outline: none;
+  }
+  .loginBtn a{
+    color: white;
+  }

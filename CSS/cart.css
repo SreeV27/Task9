@@ -95,3 +95,32 @@ table, th, td {
 
     padding: 13px 50px;
   }
+
+  .cart-box{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #ffffff;
+    color: black;
+    position: fixed;
+    z-index: 100;
+    bottom: 27px;
+    border-radius: 5px;
+    right: 40px;
+  }
+  .count-div{
+
+    background-color: #e94b35;
+    border-radius: 15px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    background: #e94b35;
+    color: #ffffff;
+  }
