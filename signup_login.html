@@ -15,11 +15,13 @@
       <nav class="bg-black position-sticky custom-nav">
          <div class="pt-3 ps-5 pb-3 d-flex justify-content-between">
             <div class="d-flex justify-content-evenly">
-               <a href="file:///D:/Git/Task9/index.html">               <img src="https://www.skullcandy.in/wp-content/themes/skullcandy/images/skullcandy_logo.svg" style="width: 35%;" alt="logo">
-               </a>               <div class="text-white" >
+               <a href="file:///D:/Git/Task9/index.html" class="a-logo">             
+                 <img src="https://www.skullcandy.in/wp-content/themes/skullcandy/images/skullcandy_logo.svg" style="width: 62%;" alt="logo">
+               </a>      
+               <div class="text-white" >
                   <ul class=" fs-12 navbar-nav list-group-horizontal ">
                      <li class="nav-item ">
-                        <a class="nav-link " href="#">SHOP</a>
+                        <a class="nav-link " href="file:///D:/Git/Task9/category.html">SHOP</a>
                      </li>
                      <li class="nav-item ms-4">
                         <a class="nav-link   " href="#">INSIDE SKULLCANDY</a>
@@ -36,9 +38,13 @@
                      <img class="rounded-circle"  src="Assests/indian_logo.png" alt="logo" style="width: 50px; height: 35px;">
                   </li>
                   <li class="pt-1">
-                     <span class="material-symbols-outlined">
-                     person
-                     </span>
+                     <form action="file:///D:/Git/Task9/signup_login.html">
+                        <button class="loginBtn">
+                        <span class="material-symbols-outlined text-white">
+                        person
+                        </span>
+                        </button>
+                     </form>
                   </li>
                   <li class="pt-1">
                      <span class="material-symbols-outlined">
@@ -46,9 +52,13 @@
                      </span>
                   </li>
                   <li class="pt-1">
-                     <span class="material-symbols-outlined">
-                     shopping_bag
-                     </span>
+                     <form action="file:///D:/Git/Task9/cart.html">
+                        <button class="loginBtn">
+                        <span class="material-symbols-outlined text-white">
+                        shopping_bag
+                        </span>
+                        </button>
+                     </form>
                   </li>
                </ul>
             </div>
@@ -62,7 +72,7 @@
       </marquee>
       <div class="text-center p-5 fs-1 fw-bold ">
          <h2 class="heading">
-         SIGN IN
+            SIGN IN
          </h2>
       </div>
       <div  class="px-3 d-flex justify-content-evenly">
@@ -92,7 +102,6 @@
                <p >
                   <label for="email">Email address<span class="red">*</span></label><br>
                   <input type="text" class="input-field" name="email" id="email"  value="">
-                  		
                </p>
                <span id="emailError" style="color: red;"></span>	
                <p>A link to set a new password will be sent to your email address.</p>
@@ -185,15 +194,13 @@
                </div>
             </div>
          </div>
-
          <div class="needhelp">
             <span>Need Help</span>
-           </div>
+         </div>
          <div class="text-end text-white-50 -50 me-5 mt-4 fs-13">
             <span>© 2023 Skullcandy.com All Rights Reserved</span>
          </div>
       </div>
       <!--end of footer-->
-     
    </body>
 </html>

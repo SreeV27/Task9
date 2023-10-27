@@ -124,3 +124,8 @@ table, th, td {
     background: #e94b35;
     color: #ffffff;
   }
+
+  .tag-checkout{
+    text-decoration: none;
+    color: white;
+  }

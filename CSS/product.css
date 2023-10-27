@@ -1,0 +1,147 @@
+.fs-12{
+    font-size: 12px;
+}
+
+.custom-nav {
+    bottom: 0;
+	top: 0;
+	z-index: 100;
+}
+.pdt1-div{
+    width: 100%;
+    height: 586px;
+    background-image:url('../Assests/1.jpg');
+    background-size: cover; 
+   
+    background-repeat: no-repeat;
+    padding-top:7%;
+}
+
+
+
+.fs-14{
+    font-size: 14px;
+}
+.product_description{
+    font-weight: 700;
+    font-size: 54px;
+    letter-spacing: -.05em;
+    line-height: 0.85em;
+    text-transform: uppercase;
+}
+.pdtname-txt{
+    font-size: 28px;
+    line-height: .85em;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: -.05em;
+}
+
+.w-24{
+    width: 24%;
+}
+
+.price-text{
+    font-size: 49px;
+}
+#text_description{
+    margin-left: 47px;
+}
+.reviewstar{
+    font-size: 17px;
+}
+.img_box {
+    width: 100%;
+    margin: 0;
+}
+.color-box{
+    display: block;
+    text-align: center;
+    padding: 25px 25px 17px 25px;
+    background-color: #767676;
+}
+
+.w-38{
+
+    width: 38%;
+}
+
+.clr{
+    margin-left: 37%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+.clr-text{
+    font-size: 14px;
+    font-weight: 400;
+     
+}
+.bg-orange{
+    background-color: orangered;
+}
+.cartBtn{
+
+    padding: 14px;
+    width: 30%;
+    font-size: 13px;
+    color: #000;
+    letter-spacing: 1.99px;
+}
+
+.features_list{
+    font-size: 18px;
+}
+
+
+
+.features_list img{
+    width: 40px;
+    height: 40px;
+}
+
+.moretech-text{
+    font-size: 14px;
+    font-weight: 700;
+}
+@media screen and (max-width:768px) {
+    .pdt1-div{
+       
+        background-image:url('../Assests/2.jpg');
+        background-size: cover; 
+        background-position: center;
+      
+        background-repeat: no-repeat;
+        
+    }
+    .features_list{
+        font-size: 16px;
+    }
+    
+    
+    .pdt1-div img{
+        max-width: 100%; /* Ensure the image does not exceed the div's width */
+  max-height: 100%;
+    }
+    
+    #box{
+
+        width: 45%;
+    }
+    #text_description{
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+    }
+    #product_description{
+        font-size: 28px;
+    }
+    #price-text{
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    #pdt-name{
+        font-size: 16px;
+    }
+}
