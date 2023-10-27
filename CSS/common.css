@@ -77,3 +77,16 @@
     border-radius: 50px;
     bottom: 18px;
 }
+
+.a-logo{
+	width: 64%;
+    text-align: center;
+}
+.loginBtn{
+    background: black;
+    border: none;
+    outline: none;
+  }
+  .loginBtn a{
+    color: white;
+  }

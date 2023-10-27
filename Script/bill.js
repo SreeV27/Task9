@@ -44,6 +44,14 @@ $(document).ready(function(){
 
 
 
-
+     $('#order').click(function () {
+      alert("Order Placed Successfully")
+   
+   
+   
+   });
 
 });
+
+
+
