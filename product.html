@@ -7,6 +7,9 @@
       <link rel="stylesheet" href="CSS/css2.css">
       <link rel="stylesheet" href="CSS/product.css">
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="Script/product.js">
+         
+      </script>
       <title>Product</title>
    </head>
    <body>
@@ -142,10 +145,12 @@
                </div>
             </div>
             <!--end 3rd row-->
+
+
          </div>
          <!-- end colors-->
          <!--button add to cart-->
-         <button  class="cartBtn ms-5 mt-3 d-none d-lg-block">ADD TO CART</button>
+         <button  class="cartBtn ms-5 mt-3 d-none d-lg-block" onclick="addToCart()">ADD TO CART</button>
          <!--end of buttn cart-->
          <div class=" features_list ms-5 mt-5 d-none d-lg-block">
             <!--Features-->
@@ -189,7 +194,7 @@
       <div class="bg-black d-lg-none d-lg-block text-white">
          <div class="w-100 ps-3   pt-5 d-lg-none" >
             <!--colors-->
-            <div class="d-flex w-100">
+            <div class="d-flex w-100 justify-content-center">
                <!--1st row-->
                <div id="box" class="color-box bg-white w-38">
                   <div class="bg-black text-white clr"></div>
@@ -201,7 +206,7 @@
                </div>
             </div>
             <!--end 1st row-->
-            <div class="d-flex w-100 mt-3">
+            <div class="d-flex w-100 mt-3 justify-content-center">
                <!--2nd row-->
                <div id="box2" class="color-box   w-38">
                   <div class="bg-orange text-white clr"></div>
@@ -213,7 +218,7 @@
                </div>
             </div>
             <!--end 2nd row-->
-            <div class="d-flex w-100 mt-3">
+            <div class="d-flex w-100 mt-3 justify-content-center">
                <!--3rd row-->
                <div id="box4" class="color-box   w-38">
                   <div class="bg-success text-white clr"></div>
@@ -228,7 +233,10 @@
          </div>
          <!-- end colors-->
          <!--button add to cart-->
-         <button  class="cartBtn ms-5 mt-3 w-75 d-lg-none d-sm-block">ADD TO CART</button>
+         <div class="d-flex justify-content-center">
+            <button  class="cartBtn mt-3 w-75 d-lg-none d-sm-block" onclick="addToCart()">ADD TO CART</button>
+
+         </div>
          <!--end of buttn cart-->
          <div class=" features_list ms-5 mt-5">
             <!--Features-->
