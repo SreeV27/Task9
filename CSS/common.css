@@ -92,3 +92,20 @@
   }
 
 
+  .my-text {
+    /* add these styles to make the text move smoothly */
+    width: 100%;
+    display: inline-block;
+    animation: slide-right 20s linear infinite;
+    white-space: nowrap; /* prevent text from wrapping */
+  }
+
+  @keyframes slide-right {
+    /* use % to specify the animation at different stages (in this case, 0% and 100%) */
+    0% {
+      transform: translateX(100%); /* Start from the right edge */
+    }
+    100% {
+      transform: translateX(-100%); /* Move to the left edge */
+    }
+  }
